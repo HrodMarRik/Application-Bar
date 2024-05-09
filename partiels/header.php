@@ -118,61 +118,28 @@
                                     <div class="col-lg-4 col-md-4 col-4">
                                         <a class="dropdown-item text-center" href="#">
                                             <img src="../images/social/search.png" class="profile-image img-fluid" alt="">
-                                            <span class="d-block">Google</span>
+                                            <span class="d-block">Email</span>
                                         </a>
                                     </div>
 
-                                    <div class="col-lg-4 col-md-4 col-4">
-                                        <a class="dropdown-item text-center" href="#">
-                                            <img src="../images/social/spotify.png" class="profile-image img-fluid" alt="">
-                                            <span class="d-block">Spotify</span>
-                                        </a>
-                                    </div>
 
-                                    <div class="col-lg-4 col-md-4 col-4">
-                                        <a class="dropdown-item text-center" href="#">
-                                            <img src="../images/social/telegram.png" class="profile-image img-fluid" alt="">
-                                            <span class="d-block">Telegram</span>
-                                        </a>
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-4 col-4">
-                                        <a class="dropdown-item text-center" href="#">
-                                            <img src="../images/social/snapchat.png" class="profile-image img-fluid" alt="">
-                                            <span class="d-block">Snapchat</span>
-                                        </a>
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-4 col-4">
-                                        <a class="dropdown-item text-center" href="#">
-                                            <img src="../images/social/tiktok.png" class="profile-image img-fluid" alt="">
-                                            <span class="d-block">Tiktok</span>
-                                        </a>
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-4 col-4">
-                                        <a class="dropdown-item text-center" href="#">
-                                            <img src="../images/social/youtube.png" class="profile-image img-fluid" alt="">
-                                            <span class="d-block">Youtube</span>
-                                        </a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
 <!-- Profile -->
-                    <div class="dropdown px-3"> 
+<!--                     <div class="dropdown px-3"> 
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <img src="../images/medium-shot-happy-man-smiling.jpg" class="profile-image img-fluid" alt="">
                         </a>
-                        <ul class="dropdown-menu bg-white shadow">
+                      <ul class="dropdown-menu bg-white shadow">
                             <li>
                                 <div class="dropdown-menu-profile-thumb d-flex">
                                     <img src="../images/medium-shot-happy-man-smiling.jpg" class="profile-image img-fluid me-3" alt="">
 
                                     <div class="d-flex flex-column">
-                                        <small>Thomas</small>
+                                        <small>Nom</small>
                                         <a href="#">thomas@site.com</a>
                                     </div>
                                 </div>
@@ -205,8 +172,9 @@
                                     Logout
                                 </a>
                             </li>
-                        </ul>
-                    </div>
+                        </ul> 
+                    
+                    </div> -->
                 </div>
             </div>
         </header>
@@ -219,30 +187,30 @@
                 <nav id="sidebarMenu" class="col-md-3 col-lg-3 d-md-block sidebar collapse">
                     <div class="position-sticky py-4 px-3 sidebar-sticky">
                         <ul class="nav flex-column h-100">
-                            <li class="nav-item">
+<!--                             <li class="nav-item">
                                 <a class="nav-link" aria-current="page" href="Acceuil.php">
                                     <i class="bi-house-fill me-2"></i>
                                     Acceuil
                                 </a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="Commandes.php">
-                                    <i class="bi-wallet me-2"></i>
-                                    Commandes
-                                </a>
-                            </li>
+                            </li> -->
 
                             <li class="nav-item">
                                 <a class="nav-link" href="Articles.php">
-                                    <i class="bi-person me-2"></i>
+                                    <i class="bi-wallet me-2"></i>
                                     Mes articles
                                 </a>
                             </li>
 
                             <li class="nav-item">
+                                <a class="nav-link" href="Commandes.php">
+                                    <i class="bi bi-clipboard2-fill"></i>
+                                    Commandes
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
                                 <a class="nav-link" href="Tables.php">
-                                    <i class="bi-gear me-2"></i>
+                                    <i class="bi bi-chevron-bar-up"></i>
                                     Mes Tables
                                 </a>
                             </li>
@@ -254,20 +222,15 @@
                                 </a>
                             </li>
 
-                            <li class="nav-item featured-box mt-lg-5 mt-4 mb-4">
-                                <img src="../images/credit-card.png" class="img-fluid" alt="">
-
-                                <a class="btn custom-btn" href="#">Upgrade</a>
-                            </li>
-
                             <li class="nav-item border-top mt-auto pt-2">
                                 <a class="nav-link" href="#">
-                                    <i class="bi-box-arrow-left me-2"></i>
-                                    Logout
+                                    <i class="bi bi-book-half"></i>
+                                    Mentions Légales
                                 </a>
                             </li>
                         </ul>
                     </div>
+
                 </nav>
 
                 <main class="main-wrapper col-md-9 ms-sm-auto py-4 col-lg-9 px-md-4 border-start">

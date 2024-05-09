@@ -1,5 +1,5 @@
 <?php
 
-header('Location: /php_microlead/pages/Acceuil.php');
+header('Location: /Application-Bar/pages/Articles.php');
 exit;
 ?>

@@ -4,7 +4,7 @@
                             <div class="row">
                                 
                                 <div class="col-lg-12 col-12">
-                                    <p class="copyright-text">Copyright © Romaric Chanavat</p>
+                                    <p class="copyright-text">Copyright © 2024 R.Chanavat. Tous droits réservés.<br><br></p>
                                 </div>
                             </div>
                         </div>
