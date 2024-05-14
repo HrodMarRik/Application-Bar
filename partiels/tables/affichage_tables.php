@@ -122,14 +122,14 @@ class afficheur {
                         <td scope="row">$dispo</td>
                         <td scope="row">$commande</td>
                         <td scope="row">
-                            <form method="POST" action="/php_microlead/php/commandes.php" style="margin-top: 8px";>
+                            <form method="POST" action="../php/commandes.php" style="margin-top: 8px";>
                             <input type="hidden" name="action" value="update">
                             <input type="hidden" name="numero" value="$num_commande">
                             <input type="hidden" name="statut" value="true">
                             <button type="submit" class="custom-btn danger">PAYÉE</button>
                             </form>
 
-                            <form method="POST" action="/php_microlead/php/tables.php" style="margin-top: 8px";>
+                            <form method="POST" action="../php/tables.php" style="margin-top: 8px";>
                             <input type="hidden" name="action" value="delete">
                             <input type="hidden" name="numero" value="$numero">
                             <button type="submit" class="custom-btn danger">SUPPRIMER</button>

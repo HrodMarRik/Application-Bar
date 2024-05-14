@@ -25,7 +25,7 @@
                         <input type="hidden" name="action" value="add">
                         <input class="form-control" type="text" name="nom" id="nom" placeholder="Nom">
 
-                        <input class="form-control" type="text" name="description" id="description" placeholder="Description(facultatif)">
+                        <input class="form-control" type="text" name="description" id="description" placeholder="Description (facultatif)">
 
                         <input class="form-control" type="number" name="prix" id="prix" placeholder="Prix" step="0.50">
 

@@ -63,9 +63,9 @@ class afficheur
                         <td scope="row">$prix €</td>
                         <td scope="row"></td>
                         <td scope="row">
-                            <form method="POST" action="/php_microlead/php/articles.php" style="margin-top: 8px";>
+                            <form method="POST" action="../php/articles.php" style="margin-top: 8px";>
                             <input type="hidden" name="action" value="delete">
-                            <input type="hidden" name="numero" value="$numero">
+                            <input type="hidden" name="id" value="$numero">
                             <button type="submit" class="custom-btn danger">SUPPRIMER</button>
                             </form>
                         </td>   
